@@ -18,7 +18,7 @@ else return false;
 //then is necessary, looking forward to seeing the "official" solution
 
 // const palindromes = function(string) {
-//     processedString = string.toLowerCase().replace(/[^a-z]/g, ""); //grabs out ONLY what is an a-z character (and uppercase) with nothing else so 'A car, a man, a maraca.' becomes 'acaramanamaraca' (/[^a-z]/g is a regular expression!,[^a-z] means a-z upper and lower ONLY, the g means global search, aka all the letters there, not just a specified amount. )
+//     processedString = string.toLowerCase().replace(/[^a-z]/g, ""); //grabs whatever isnt an a-z character and replaces it with nothing else,  so 'A car, a man, a maraca.' becomes 'acaramanamaraca' (/[^a-z]/g is a regular expression!,[^a-z] means a-z lower ONLY, the g means global search, aka all the letters there, not just a specified amount. )
 //     return (
 //       processedString
 //         .split("") //splits a string into an array of substrings, because no space its splitting every letter into its on spot in an array.
