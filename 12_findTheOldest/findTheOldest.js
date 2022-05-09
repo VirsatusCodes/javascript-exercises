@@ -26,6 +26,32 @@ const findTheOldest = (function(people) {
 //understanding your goal and taking it one at a time without letting yourself
 //get buried in the possibilities is very important.
 
+// my solution ended up being completely different lol instead of looking
+// for a undefined value they just made a function only taking in birth and 
+// death and if there was no death they added the current year.
+
+// const findTheOldest = function(array) {
+//     return array.reduce((oldest, currentPerson) => {
+//       const oldestAge = getAge(oldest.yearOfBirth, oldest.yearOfDeath);
+//       const currentAge = getAge(currentPerson.yearOfBirth, currentPerson.yearOfDeath);
+//       return oldestAge < currentAge ? currentPerson : oldest;
+//     })
+//   };
+  
+//   const getAge = function(birth, death) {
+//     if (!death) {
+//       death = new Date().getFullYear();
+//     }
+//     return death - birth;
+//   };
+
+ // their solution actually takes a similar amount of lines of code, but mine
+ //takes less functions i think? however idk how the comparison would be
+ //for large amounts of data flowing through each of ours (though mine could
+ //be shortened if i used the ? syntax in mine as well which i could)
+ //though i feel like mine is easier to understand at a glance, at least
+ //for me though ofc that could just be bias and lack of experience.
+
 // Do not edit below this line
 
 
